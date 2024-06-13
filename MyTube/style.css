@@ -1,0 +1,48 @@
+body{
+    background-color: #0F0F0F;
+}
+
+br{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 40%;
+}
+
+.text{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Demi Condensed', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navdiv input{
+    width: 450px;
+    padding: 8px;
+    border: 2px solid aliceblue;
+    border-radius: 12px;
+    background-color: #121212;
+}
+
+
+
+
