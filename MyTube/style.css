@@ -21,7 +21,7 @@ img{
 }
 .searchbar{
   vertical-align: middle;
-  margin: 0px 375px;
+  margin: 0px 350px;
   width: 350px;
   border-radius: 16px;
   padding: 10px;
@@ -38,8 +38,8 @@ img{
   cursor: pointer;
 }
 
-.notif{
-  width: 40px;
+.extras{
+  width: 25px;
   vertical-align: middle;
   margin-right: 10px;
   cursor: pointer;
