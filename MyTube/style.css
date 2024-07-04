@@ -1,58 +1,46 @@
-body{
-    background-color: #0F0F0F;
-}
-
-a{
-    text-decoration: none;
-}
-
 img{
-    width: 20%;
+  width: 80px;
 }
 
-.text{
-    color: aliceblue;
-    font-family: 'Franklin Gothic Demi Condensed', 'Arial Narrow', Arial, sans-serif;
+.sidemenu{
+ vertical-align: middle;
+ width: 20px;
+ margin-right: 12px;
+ cursor: pointer;
 }
 
-.navbar{
-    padding-right: 16px;
-    padding-left: 16px;
+.logo{
+  vertical-align: middle;
+  width: 100px;
+  cursor: pointer;
 }
 
-.navdiv{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+.container{
+  
+  height: 80px;
+}
+.searchbar{
+  vertical-align: middle;
+  margin: 0px 375px;
+  width: 350px;
+  border-radius: 16px;
+  padding: 10px;
+  border: solid 1px;
+  border-color: grey;
 }
 
-.navdiv .myTube_logo{
-    width: 20%;
+.profile{
+  vertical-align: middle;
+  border-radius:100%;
+  object-fit: contain;
+  object-position: top;
+  width: 50px;
+  cursor: pointer;
 }
 
-.navdiv li{
-    list-style: none;
-    display: inline-block;
+.notif{
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
 }
-
-.navdiv input{
-    width: 450px;
-    padding: 8px;
-    border: 2px solid aliceblue;
-    border-radius: 12px;
-    background-color: #121212;
-    color: aliceblue;
-    font-family: 'Franklin Gothic Demi Condensed', 'Arial Narrow', Arial, sans-serif;
-}
-
-.navdiv input::placeholder{
-    color: #878181;
-}
-
-.navdiv button{
-    margin-left: 30%;
-}
-
-
-
-
