@@ -48,19 +48,19 @@ p{
   cursor: pointer;
 }
 
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
 
 .video-preview{
-  display: inline-block;
-  vertical-align: top;
-  width: 300px;
-  margin: 40px 15px; 
   cursor: pointer;
 }
 
 .thumbnail{
-  object-fit:cover;
-  width: 316px;
-  height: 178px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -81,6 +81,7 @@ p{
 
 .channel-picture{
   margin-top: 1px;
+  border-radius: 100%;
   width: 100%;
 }
 
@@ -90,13 +91,7 @@ p{
   margin-top: 1px;
 }
 
-.channel-pfp-div{
-  display: inline-block;
-  vertical-align: top;
-  width: 40px;
-}
-.video-stats-div{
-  display: inline-block;
-  vertical-align: top;
-  width: 200px;
+.info-div{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
