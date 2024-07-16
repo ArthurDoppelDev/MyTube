@@ -3,53 +3,46 @@ p{
   font-family: roboto, Arial;
   margin: 0px;
 }
-.sidemenu{
- vertical-align: middle;
- width: 20px;
- margin-right: 12px;
- cursor: pointer;
-}
 
-.logo{
-  vertical-align: middle;
-  width: 100px;
-  cursor: pointer;
-}
-
-.search-container{
-  display: inline-block;
-  text-align: center;
+.header-box{
+  display: flex;
+  border-bottom: 1px solid grey;
   align-items: center;
+  padding: 10px 0px;
 }
 
-.searchbar{
-  vertical-align: middle;
-  margin: 0px 350px;
-  width: 400px;
-  border-radius: 16px;
-  padding: 10px;
-  border: solid 1px;
-  border-color: grey;
-}
-
-.profile{
-  vertical-align: middle;
-  border-radius:100%;
-  object-fit: contain;
-  object-position: top;
-  width: 50px;
-  cursor: pointer;
-}
-
-.extras{
+.sidebar-icon-div{
   width: 25px;
-  vertical-align: middle;
-  margin-right: 10px;
-  cursor: pointer;
 }
+.sidebar-icon{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.yt-logo-div{
+  width: 100px;
+ }
+ .yt-logo{
+   width: 100%;
+ }
+
+.searchbar-div{
+  flex: 1;
+  margin: 0px 100px;
+}
+.searchbar{
+  border-radius: 16px;
+  width:100%;
+  padding: 8px;
+  
+}
+
+
+
 
 .video-grid{
   display: grid;
+  margin-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
