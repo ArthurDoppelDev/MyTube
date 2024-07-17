@@ -8,7 +8,16 @@
 
 .header-left{
   background-color: lightblue;
-  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 24px;
+  margin: 0px 20px 0px 24px;
+  cursor: pointer;
+}
+.yt-logo{
+  height: 20px;
 }
 
 .header-middle{
