@@ -1,0 +1,25 @@
+.header-box{
+  height: 55px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-left{
+  background-color: lightblue;
+  width: 150px;
+}
+
+.header-middle{
+  background-color: lightgreen;
+  max-width: 516px;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+}
+
+.header-right{
+  background-color: lightcoral;
+  width: 200px;
+}
