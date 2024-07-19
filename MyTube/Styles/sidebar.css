@@ -8,6 +8,28 @@
   width: 64px;
 }
 
+.sidebar-button{
+  width: 66px;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 16px;
+
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  transition: background-color 0.2s, opacity 0.2s;
+
+  cursor: pointer;
+}
+.sidebar-button:hover{
+  background-color: rgb(242, 233, 233);
+}
+.sidebar-button:active{
+  opacity: 0.75;
+}
+
 .sidebar-icons{
   display: flex;
   flex-direction: column;
@@ -16,7 +38,4 @@
 
 .icon{
   width: 32px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
 }
