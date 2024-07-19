@@ -18,7 +18,8 @@
 }
 .hamburger-menu{
   height: 24px;
-  margin: 0px 20px 0px 24px;
+  margin-left: 20px;
+  margin-right: 24px;
   cursor: pointer;
 }
 .yt-logo{
