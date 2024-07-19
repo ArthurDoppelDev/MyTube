@@ -1,9 +1,15 @@
 .header-box{
   height: 55px;
+  background-color: white;
   
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .header-left{
